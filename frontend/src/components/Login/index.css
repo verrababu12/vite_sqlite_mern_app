@@ -1,0 +1,80 @@
+.login-form-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #2196f3, #f44336);
+}
+
+.login-card-2 {
+  border-radius: 8px;
+  background-image: radial-gradient(#fff8db, #fae38c);
+  width: 50%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 16px;
+}
+
+@media screen and (max-width: 567px) {
+  .login-card-2 {
+    width: 100%;
+  }
+}
+
+.input-container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.input-label-2 {
+  font-family: "Caveat";
+  font-size: 18px;
+  color: #323f4b;
+}
+
+.input-filed {
+  font-size: 20px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #ffffff;
+  color: #323f4b;
+  border-radius: 2px;
+  margin-top: 2px;
+}
+
+.button {
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #ffffff;
+  height: 40px;
+  width: 140px;
+  margin-top: 10px;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  border: none;
+  margin-top: 10px;
+}
+
+.sign-up-button-2 {
+  font-family: "Roboto";
+  background-color: #0b69ff;
+  height: 40px;
+  width: 135px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.main-heading-2 {
+  font-family: "Caveat";
+  font-size: 25px;
+}
